@@ -1,0 +1,3 @@
+# === Typst Build Outputs ===
+# Ignore compiled documents (uncomment if you want to prevent committing PDFs)
+*.pdf
