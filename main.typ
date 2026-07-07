@@ -1,10 +1,11 @@
-#import "@preview/verseatile:0.2.1": poem
+#import "@preview/verseatile:0.2.1": poem, v-after-poemtitle
 #import "@preview/min-book:1.5.0": book
 #import "poetry-theme.typ"
 
 #set text(font: "Esteban")
-
 #set par(leading: .8em)
+#set par(spacing: 1.6em)
+#v-after-poemtitle.update(0.6em)
 
 #show: book.with(
     title: "Assume a Position of Prayer",
@@ -20,20 +21,12 @@
     chapter: ""
 )
 
-#set par(leading: 1.2em)
-
 = Walking
-
-#poem[Test item][
-    this is a poem\
-    with two lines.
-
-    and two verses\
-    with two lines.
-][0]
 
 = Standing
 
 #include "lazarus.typ"
+#pagebreak()
+#include "inpassing.typ"
 
 = Sitting

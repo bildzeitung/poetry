@@ -1,9 +1,9 @@
 #import "@preview/verseatile:0.2.1": poem
-== Lazarus
+== A Lament of Lazarus
 
 A manuscript, tucked under a sandal in a cave otherwise replete with long-forgotten olive oil jars, composed long after the psalmists put down their reed pens, imagines Lazarus of Bethany, in a moment of struggle, reconciling withhis life after his resurrection by Jesus. Recklessly translated through copy and pasting back and forth from Google Translate, it is reproduced below.
 
-#poem[A Lament of Lazarus][
+#poem[][
 
         O #smallcaps("Lord"), my #smallcaps("God"), You call me,\
         Not from heaven but earth, I hear your voice.

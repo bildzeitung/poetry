@@ -156,12 +156,14 @@
   cfg.std-toc = cfg.at("std-toc", default: false)
   
   let h2-count = counter("min-book-h2-count")
-  let font-size = default(
+  let font-size = 11pt
+  /*
+  default(
     when: text.size == 11pt and not cfg.styling.reset,
     value: 12pt,
     otherwise: 11pt,
     false
-  )
+  )*/
   let indent = default(
     when: par.first-line-indent == (amount: 0pt, all: false) and not cfg.styling.reset,
     value: 1em,
@@ -201,8 +203,6 @@
   set page(
     ..default(
       when: page.margin == auto,
-      //value: (margin: (x: 15%, y: 14%)),  // removed due to drafting:0.2.2
-      //value: (margin: (x: 2.25cm, y: 3cm)),
       value: (margin: (x: 2cm, y: 2.5cm)),
       cfg.styling.reset,
     ),
@@ -212,6 +212,10 @@
       cfg.styling.reset,
     ),
   )
+  set par(
+    leading: 1.2em
+  )
+  /*
   set par(
     ..default(
       when: par.justify == false,
@@ -229,13 +233,8 @@
       cfg.styling.reset,
     ),
     first-line-indent: indent,
-  )
+  )*/
   set text(
-    ..default(
-      when: text.font == "libertinus serif",
-      value: ( font: ("TeX Gyre Pagella", "Book Antiqua") ),
-      cfg.styling.reset,
-    ),
     size: font-size
   )
   set terms(
@@ -268,6 +267,7 @@
   show heading: it => {
     set align(left)
     set par(justify: false)
+    set block(below: 1.2em)
     set text(
       hyphenate: false,
       ..default(
