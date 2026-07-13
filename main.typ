@@ -25,8 +25,10 @@
 
 = Standing
 
-#include "lazarus.typ"
+#include "individual-poems/lazarus.typ"
 #pagebreak()
-#include "inpassing.typ"
+#include "individual-poems/inpassing.typ"
 
 = Sitting
+
+#include "individual-poems/my-church.typ"

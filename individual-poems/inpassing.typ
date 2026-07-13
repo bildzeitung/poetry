@@ -1,4 +1,4 @@
-#import "@preview/verseatile:0.2.1": poem, v-after-poemtitle
+#import "@preview/verseatile:0.2.1": poem
 
 == In passing
 
