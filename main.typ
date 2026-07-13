@@ -22,6 +22,11 @@
 )
 
 = Walking
+#include "individual-poems/meseta.typ"
+#pagebreak()
+#include "individual-poems/st-james.typ"
+#pagebreak()
+#include "individual-poems/blessed-sisters.typ"
 
 = Standing
 
