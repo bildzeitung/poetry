@@ -1,5 +1,6 @@
 {
     "tinymist.fontPaths": [
         "${workspaceFolder}/fonts"
-    ]
+    ],
+    "chat.commandCenter.enabled": false
 }

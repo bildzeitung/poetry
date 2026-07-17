@@ -10,3 +10,23 @@ and the theme (`poetry-theme.typ`).
 2. Fill out template
 
 3. Add poem to book with an include directive in `main.typ`
+
+## Creating the PDF
+
+To render the book,
+
+```bash
+
+; typst compile main.typ --font-path ./fonts
+
+```
+
+## Authoring in VS Code
+
+Additionally, you can open a terminal process and use:
+
+```bash
+
+; typst watch main.typ --font-path ./fonts
+
+```
