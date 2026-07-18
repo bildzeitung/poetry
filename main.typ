@@ -27,6 +27,8 @@
 #include "individual-poems/st-james.typ"
 #pagebreak()
 #include "individual-poems/blessed-sisters.typ"
+#pagebreak()
+#include "individual-poems/sonnet.typ"
 
 = Standing
 
