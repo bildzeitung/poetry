@@ -14,5 +14,5 @@ obscure except as loving glances altered cadence breath\
 blankets of soft words where hearts sleep holding poems bereft\
 of tomorrow or yesterday just stuff of nows' todays.
 
-
+there is not trust for whisps and whiperwills 
 ][0]

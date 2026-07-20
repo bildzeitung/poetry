@@ -28,7 +28,6 @@
 #pagebreak()
 #include "individual-poems/blessed-sisters.typ"
 #pagebreak()
-#include "individual-poems/sonnet.typ"
 
 = Standing
 
@@ -38,4 +37,6 @@
 
 = Sitting
 
+#include "individual-poems/sonnet.typ"
+#pagebreak()
 #include "individual-poems/my-church.typ"
